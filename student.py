@@ -8,9 +8,9 @@ class Student:
 		name= self.first_name + " "+ self.second_name
 		return name
 	def year_of_birth(self):
-		return 2019-self.age	
+		return 2022-self.age	
 	def greeting(self):
-		return "Hello {}, you were born in {}".format(self.first_name,(2019-self.age))
+		return "Hello {}, you were born in {}".format(self.first_name,(2022-self.age))
 	    
     def initials(self):
     	initial = self.first_name + self.second_name
